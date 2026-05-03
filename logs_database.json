@@ -1,0 +1,29 @@
+[
+  {
+    "correlation_id": "c1",
+    "level": "INFO",
+    "message": "Test",
+    "service": "user_service",
+    "timestamp": "2024-01-01T12:00:00",
+    "log_id": "log_20260503220149022077",
+    "server_timestamp": "2026-05-03T22:01:49.022098"
+  },
+  {
+    "correlation_id": "c2",
+    "level": "ERROR",
+    "message": "Test",
+    "service": "user_service",
+    "timestamp": "2024-01-01T12:00:00",
+    "log_id": "log_20260503220149023622",
+    "server_timestamp": "2026-05-03T22:01:49.023642"
+  },
+  {
+    "correlation_id": "c3",
+    "level": "INFO",
+    "message": "Test",
+    "service": "order_service",
+    "timestamp": "2024-01-01T12:00:00",
+    "log_id": "log_20260503220149040025",
+    "server_timestamp": "2026-05-03T22:01:49.040048"
+  }
+]

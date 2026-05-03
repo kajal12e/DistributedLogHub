@@ -1,0 +1,191 @@
+[
+  {
+    "service": "user_service",
+    "level": "INFO",
+    "message": "Fetching all users",
+    "correlation_id": "9808bcfc-baf9-47f4-b56c-5c87bedd1a72",
+    "timestamp": "2026-05-03T21:16:53.068836",
+    "log_id": "log_20260503211655164292",
+    "server_timestamp": "2026-05-03T21:16:55.164435"
+  },
+  {
+    "service": "user_service",
+    "level": "INFO",
+    "message": "Found 2 users",
+    "correlation_id": "9808bcfc-baf9-47f4-b56c-5c87bedd1a72",
+    "timestamp": "2026-05-03T21:16:55.178757",
+    "log_id": "log_20260503211657229387",
+    "server_timestamp": "2026-05-03T21:16:57.229544"
+  },
+  {
+    "service": "user_service",
+    "level": "INFO",
+    "message": "Fetching user 1",
+    "correlation_id": "452b876c-05a7-493c-a4b5-ef758f638d00",
+    "timestamp": "2026-05-03T21:16:59.358901",
+    "log_id": "log_20260503211701410096",
+    "server_timestamp": "2026-05-03T21:17:01.410170"
+  },
+  {
+    "service": "user_service",
+    "level": "INFO",
+    "message": "User 1 retrieved successfully",
+    "correlation_id": "452b876c-05a7-493c-a4b5-ef758f638d00",
+    "timestamp": "2026-05-03T21:17:01.452105",
+    "log_id": "log_20260503211703510252",
+    "server_timestamp": "2026-05-03T21:17:03.510336"
+  },
+  {
+    "service": "user_service",
+    "level": "INFO",
+    "message": "Fetching user 999",
+    "correlation_id": "56cc8329-d38c-41ae-a4eb-91a7c6c8f893",
+    "timestamp": "2026-05-03T21:17:05.677508",
+    "log_id": "log_20260503211707727362",
+    "server_timestamp": "2026-05-03T21:17:07.727455"
+  },
+  {
+    "service": "user_service",
+    "level": "ERROR",
+    "message": "User 999 not found",
+    "correlation_id": "56cc8329-d38c-41ae-a4eb-91a7c6c8f893",
+    "timestamp": "2026-05-03T21:17:07.790177",
+    "log_id": "log_20260503211709844050",
+    "server_timestamp": "2026-05-03T21:17:09.844149"
+  },
+  {
+    "service": "order_service",
+    "level": "INFO",
+    "message": "Creating order for user 1",
+    "correlation_id": "f076dc97-e168-49bf-9d46-8cb76b6698da",
+    "timestamp": "2026-05-03T21:17:12.980006",
+    "log_id": "log_20260503211715060520",
+    "server_timestamp": "2026-05-03T21:17:15.060616"
+  },
+  {
+    "service": "user_service",
+    "level": "INFO",
+    "message": "Fetching user 1",
+    "correlation_id": "f076dc97-e168-49bf-9d46-8cb76b6698da",
+    "timestamp": "2026-05-03T21:17:17.160771",
+    "log_id": "log_20260503211719226883",
+    "server_timestamp": "2026-05-03T21:17:19.226976"
+  },
+  {
+    "service": "user_service",
+    "level": "INFO",
+    "message": "User 1 retrieved successfully",
+    "correlation_id": "f076dc97-e168-49bf-9d46-8cb76b6698da",
+    "timestamp": "2026-05-03T21:17:19.289656",
+    "log_id": "log_20260503211721331678",
+    "server_timestamp": "2026-05-03T21:17:21.331790"
+  },
+  {
+    "service": "order_service",
+    "level": "INFO",
+    "message": "User verified for order",
+    "correlation_id": "f076dc97-e168-49bf-9d46-8cb76b6698da",
+    "timestamp": "2026-05-03T21:17:21.403697",
+    "log_id": "log_20260503211723456628",
+    "server_timestamp": "2026-05-03T21:17:23.457083"
+  },
+  {
+    "service": "order_service",
+    "level": "INFO",
+    "message": "Order created successfully: 100",
+    "correlation_id": "f076dc97-e168-49bf-9d46-8cb76b6698da",
+    "timestamp": "2026-05-03T21:17:23.559609",
+    "log_id": "log_20260503211725617348",
+    "server_timestamp": "2026-05-03T21:17:25.617388"
+  },
+  {
+    "service": "user_service",
+    "level": "INFO",
+    "message": "Fetching user 999",
+    "correlation_id": "d2433078-c5b9-4d7b-9e84-99a96f725e32",
+    "timestamp": "2026-05-03T21:17:38.009433",
+    "log_id": "log_20260503211740076776",
+    "server_timestamp": "2026-05-03T21:17:40.076918"
+  },
+  {
+    "service": "user_service",
+    "level": "ERROR",
+    "message": "User 999 not found",
+    "correlation_id": "d2433078-c5b9-4d7b-9e84-99a96f725e32",
+    "timestamp": "2026-05-03T21:17:40.091095",
+    "log_id": "log_20260503211742125964",
+    "server_timestamp": "2026-05-03T21:17:42.126055"
+  },
+  {
+    "service": "user_service",
+    "level": "INFO",
+    "message": "Fetching user 999",
+    "correlation_id": "e0dbebc3-1e43-4774-b037-ecd6cd821996",
+    "timestamp": "2026-05-03T21:17:44.225863",
+    "log_id": "log_20260503211746277224",
+    "server_timestamp": "2026-05-03T21:17:46.277312"
+  },
+  {
+    "service": "user_service",
+    "level": "ERROR",
+    "message": "User 999 not found",
+    "correlation_id": "e0dbebc3-1e43-4774-b037-ecd6cd821996",
+    "timestamp": "2026-05-03T21:17:46.354833",
+    "log_id": "log_20260503211748408093",
+    "server_timestamp": "2026-05-03T21:17:48.408180"
+  },
+  {
+    "service": "user_service",
+    "level": "INFO",
+    "message": "Fetching user 999",
+    "correlation_id": "7d569a08-0ce8-446f-bc64-0b1461009614",
+    "timestamp": "2026-05-03T21:17:50.524919",
+    "log_id": "log_20260503211752582191",
+    "server_timestamp": "2026-05-03T21:17:52.582334"
+  },
+  {
+    "service": "user_service",
+    "level": "ERROR",
+    "message": "User 999 not found",
+    "correlation_id": "7d569a08-0ce8-446f-bc64-0b1461009614",
+    "timestamp": "2026-05-03T21:17:52.643888",
+    "log_id": "log_20260503211754692628",
+    "server_timestamp": "2026-05-03T21:17:54.692746"
+  },
+  {
+    "service": "user_service",
+    "level": "INFO",
+    "message": "Fetching user 999",
+    "correlation_id": "09e40b49-aeec-41ae-a617-641048a3256a",
+    "timestamp": "2026-05-03T21:17:56.825216",
+    "log_id": "log_20260503211758867193",
+    "server_timestamp": "2026-05-03T21:17:58.867289"
+  },
+  {
+    "service": "user_service",
+    "level": "ERROR",
+    "message": "User 999 not found",
+    "correlation_id": "09e40b49-aeec-41ae-a617-641048a3256a",
+    "timestamp": "2026-05-03T21:17:58.940006",
+    "log_id": "log_20260503211800975524",
+    "server_timestamp": "2026-05-03T21:18:00.975605"
+  },
+  {
+    "service": "user_service",
+    "level": "INFO",
+    "message": "Fetching user 999",
+    "correlation_id": "e0b5973e-5a37-4f58-be0e-2af6a5443dfc",
+    "timestamp": "2026-05-03T21:18:03.060941",
+    "log_id": "log_20260503211805093760",
+    "server_timestamp": "2026-05-03T21:18:05.093852"
+  },
+  {
+    "service": "user_service",
+    "level": "ERROR",
+    "message": "User 999 not found",
+    "correlation_id": "e0b5973e-5a37-4f58-be0e-2af6a5443dfc",
+    "timestamp": "2026-05-03T21:18:05.147727",
+    "log_id": "log_20260503211807208602",
+    "server_timestamp": "2026-05-03T21:18:07.208728"
+  }
+]
