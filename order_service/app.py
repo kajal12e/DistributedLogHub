@@ -5,7 +5,8 @@ from datetime import datetime
 import json
 
 app = Flask(__name__)
-
+ 
+import os
 LOG_COLLECTOR_URL = "http://localhost:5000/logs"
 USER_SERVICE_URL = "http://localhost:5001"
 

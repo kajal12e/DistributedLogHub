@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  log_collector:
+    build: ./log_collector
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./logs_database.json:/app/logs_database.json
+    networks:
+      - log-network
+
+  user_service:
+    build: ./user_service
+    ports:
+      - "5001:5001"
+    depends_on:
+      - log_collector
+    networks:
+      - log-network
+
+  order_service:
+    build: ./order_service
+    ports:
+      - "5002:5002"
+    depends_on:
+      - log_collector
+      - user_service
+    networks:
+      - log-network
+
+  product_service:
+    build: ./product_service
+    ports:
+      - "5003:5003"
+    depends_on:
+      - log_collector
+    networks:
+      - log-network
+
+networks:
+  log-network:
+    driver: bridge
