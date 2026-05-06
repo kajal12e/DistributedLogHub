@@ -67,7 +67,7 @@ docker-compose up  # Runs all 4 services locally
 
 
 ## *🎥 Demo Video*
-*[Watch 60-sec live demo](your-video-link-here)* - Shows real-time log flow from user-service → log-collector
+*[Watch 39-sec live demo](https://www.loom.com/share/f536609c5ef042cca520ae745a75bb57)* - Shows real-time log flow from user-service → log-collector
 
 ---
 
