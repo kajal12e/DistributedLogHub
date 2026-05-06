@@ -5,6 +5,20 @@ import os
 from collections import defaultdict
 
 app = Flask(__name__)
+@app.route('/')
+def home():
+    return jsonify({
+        "message": "Log Collector API is running!",
+        "endpoints": {
+            "health": "/health",
+            "get_logs": "/logs",
+            "post_logs": "/logs [POST]",
+            "search": "/logs/search?q=keyword",
+            "stats": "/logs/stats",
+            "anomaly": "/logs/anomaly",
+            "trace": "/logs/trace/<correlation_id>"
+        }
+    }), 200
 
 # Storage file
 LOGS_FILE = "logs_database.json"
