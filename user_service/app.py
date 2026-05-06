@@ -5,10 +5,13 @@ from datetime import datetime
 import json
 
 app = Flask(__name__)
+@app.route('/')
+def home():
+    return {"service": "user-service", "status": "running", "docs": "/health"}
 
 # Configuration
 import os
-LOG_COLLECTOR_URL = "http://localhost:5000/logs"
+LOG_COLLECTOR_URL = os.environ.get('LOG_COLLECTOR_URL','http://localhost:5000/logs')
 
 def send_log(service_name, level, message, correlation_id):
     """Send log to central collector"""
